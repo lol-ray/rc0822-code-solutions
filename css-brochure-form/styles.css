@@ -1,6 +1,6 @@
 .center {
   margin: 0 auto;
-  width: 40%;
+  width: 1000px;
 }
 
 form > div > label::after {
