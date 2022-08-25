@@ -1,0 +1,46 @@
+body {
+  background-color: #1996da;
+  color: white;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  margin: 0 auto;
+}
+
+.col-one-third {
+  width: calc(100% / 3);
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.icon > img {
+  width: 50%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.col-one-third > p {
+  padding-left: 18px;
+  padding-right: 18px;
+}
