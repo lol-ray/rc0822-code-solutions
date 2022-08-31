@@ -32,8 +32,8 @@ var library = [
 var lastBook = library.pop();
 var firstBook = library.shift();
 
-console.log('value of lastBook: ' + lastBook);
-console.log('value of firstBook: ' + firstBook);
+console.log('value of lastBook: ', lastBook);
+console.log('value of firstBook: ', firstBook);
 
 var js = {
   title: 'JavaScript for Impatient Programmers',
@@ -47,7 +47,7 @@ library.push(js);
 library.unshift(css);
 library.splice(1, 1);
 
-console.log('value of library: ' + library);
+console.log('value of library: ', library);
 
 var fullName = 'Ray Le';
 var firstAndLastName = fullName.split(' ');
