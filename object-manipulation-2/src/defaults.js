@@ -2,7 +2,7 @@
 
 // for loop to go through keys in source object
 // if key does not already exist in target or equal null
-// add source key pair to target
+// add source key pair to target object
 
 function defaults(target, source) {
   for (const key in source) {
