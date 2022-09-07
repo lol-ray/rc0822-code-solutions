@@ -1,0 +1,11 @@
+.bulb-on {
+  height: 200px;
+  width: 200px;
+  background-color: #faea84;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: auto;
+}
