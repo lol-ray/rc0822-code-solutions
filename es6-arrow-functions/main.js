@@ -31,7 +31,7 @@ const jokester = {
 const flash = {
   laughingUrl: 'images/flash-laugh.gif',
   laugh: function () {
-    setTimeout(function () {
+    setTimeout(() => {
       $flashImage.setAttribute('src', this.laughingUrl);
     }, 3000);
   }
