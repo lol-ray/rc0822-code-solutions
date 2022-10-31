@@ -1,0 +1,67 @@
+button {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.clicks-0 {
+  background-color: black;
+  color: white;
+}
+
+.clicks-0:hover {
+  background-color: rgb(0 0 0 / 80%);
+}
+
+.clicks-3 {
+  background-color: #351c75;
+  color: white;
+}
+
+.clicks-3:hover {
+  background-color: rgb(53 28 117 / 80%);
+}
+
+.clicks-6 {
+  background-color: #674ea7;
+  color: white;
+}
+
+.clicks-6:hover {
+  background-color: rgb(103 78 167 / 80%);
+}
+
+.clicks-9 {
+  background-color: #e06666;
+  color: white;
+}
+
+.clicks-9:hover {
+  background-color: rgb(224 102 102 / 80%);
+}
+
+.clicks-12 {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.clicks-12:hover {
+  background-color: rgb(246 178 107 / 80%);
+}
+
+.clicks-15 {
+  background-color: #ff0;
+  color: black;
+}
+
+.clicks-15:hover {
+  background-color: rgb(255 255 0 / 80%);
+}
+
+.clicks-18 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
