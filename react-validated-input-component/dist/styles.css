@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  font-family: Poppins, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+input {
+  width: 15rem;
+  height: 1.75rem;
+}
+
+.none {
+  display: none;
+}
+
+.pass-line {
+  display: flex;
+  width: 17.5rem;
+  justify-content: space-between;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.container {
+  margin: 1rem 2rem;
+}
+
+.fa-solid {
+  font-size: 1.75rem;
+}
