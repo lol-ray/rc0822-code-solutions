@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik, Helvetica, sans-serif;
+}
+
+.accordion {
+  margin: 1rem;
+}
+
+h1 {
+  border: solid 1px rgb(153 153 153);
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  background-color: #ddd;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+p {
+  width: 25rem;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+p.active {
+  height: 6rem;
+  border: solid 1px rgb(153 153 153);
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
