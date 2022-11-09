@@ -11,15 +11,13 @@ export default class Accordion extends React.Component {
   }
 
   handleClick(id) {
-    if (this.state.firstClick) {
+    if (this.state.openId !== id) {
       this.setState({
-        openId: id,
-        firstClick: false
+        openId: id
       });
     } else {
       this.setState({
-        openId: false,
-        firstClick: true
+        openId: null
       });
     }
   }
