@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.fa-angle-left {
+  left: 0;
+  margin-left: 2rem;
+}
+
+.fa-angle-right {
+  right: 0;
+  margin-right: 2rem;
+}
+
+.img-container {
+  height: 30rem;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15rem);
+}
+
+img {
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+img.inactive {
+  display: none;
+}
+
+img.active {
+  scroll-snap-align: center;
+}
